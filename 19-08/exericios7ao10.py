@@ -26,6 +26,7 @@ else:
 #10 - Atribua seu nome completo a uma variável. Crie para cada nome (sobrenome) uma variável separada (através do fatiametno de strings) e depois mostre cada nome e sobrenome em linhas diferentes.
 print("\nexercidio 10:")
 nomeCompleto = "Renato Regatiere"
+teste = nomeCompleto.split()
 primeirNOme = nomeCompleto[:6]
 sobrenome = nomeCompleto[7:]
-print(f"nome: {primeirNOme}\nSobrenome: {sobrenome} ")
+print(f"nome: {primeirNOme}\nSobrenome: {sobrenome}")
