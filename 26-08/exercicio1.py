@@ -1,4 +1,4 @@
-'''crie um programa que recebe 3 valores inteiros e verifiqeu se são números positivos. Se pelo menos um número for negativo o sistema deve informar: 'somente números positivos são aceitos'. Se forem todos positivos, o programa deve encontrar qual deles é o maior e mostrá-lo na tela. Verificar se todods valroes são iguais. Dica para pegar o maior valor: função 'max()'''
+'''crie um programa que recebe 3 valores inteiros e verifiqeu se são números positivos. Se pelo menos um número for negativo o sistema deve informar: 'somente números positivos são aceitos'. Se forem todos positivos, o programa deve encontrar qual deles é o maior e mostrá-lo na tela. Verificar se todods valores são iguais. Dica para pegar o maior valor: função 'max()'''
 
 
 n1 = int(input("digite um valor: "))
