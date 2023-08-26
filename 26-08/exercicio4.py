@@ -9,6 +9,7 @@ O programa de deve no final emitir uma classificação sobre a participação da
 Se a pessoal responder positivamente a 2 questão, ela deve ser classificada como 'Suspeita', entre 3 e 4 como 'Cumplice' e 5 como 'Assassino'.
 Caso qtdrário, ele será classificado como 'inocente'.
 '''
+
 qtd=0
 print("\nDigite um SIM ou NÃO para as perguntas abaixo:z\n")
 
