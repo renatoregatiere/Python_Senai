@@ -2,10 +2,10 @@
 
 
 n1 = int(input("digite um valor: "))
-n2 = int(input("digite um valor: "))
-n3 = int(input("digite um valor: "))
+n2 = int(input("digite outro valor: "))
+n3 = int(input("digite mais um valor: "))
 
-if(n1<=0 or n2<=0 or n3<=0):
+if(n1<0 or n2<0 or n3<0):
     print("somente números positivos são aceitos")
 elif(n1==n2 or n1==n3 or n2==n1 or n2==n3 or n3==n1 or n3==n2):
     print("Todos os números são iguais!")
