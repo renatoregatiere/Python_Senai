@@ -15,14 +15,13 @@ Considerar valores por liltro abaixo:
 Gasolina: R$ 5,00
 Álcool: R$ 2,90
 '''
-tipo = str(input("Escolha um tpo de combústivel:\nG - Gasolina\nA - Álcool\nDigite a opção: "))
+tipo = str(input("Escolha um tipo de combústivel:\nG - Gasolina\nA - Álcool\nDigite a opção: "))
 gasolina=5
 alcool=2.90
-
-if(tipo!="a" and tipo!="A" and tipo!="g" and tipo!="G"):
-    print("Tipo inválido")
+while(tipo!="a" and tipo!="A" and tipo!="g" and tipo!="G"):    
+    tipo = str(input("\n## Tipo inválido ##\n\nEscolha um tipo de combústivel:\nG - Gasolina\nA - Álcool\nDigite a opção: "))
 else:
-    litros = float(input("Digite a quantida de litros: "))
+    litros = float(input("Digite a quantidade de litros: "))
     if(tipo=='g' or tipo=='G' and litros<=20):
         vlr = (gasolina-gasolina*0.04)*litros
     elif(tipo=='g' or tipo=='G' and litros>20):
@@ -31,4 +30,4 @@ else:
         vlr = (alcool-alcool*0.03)*litros
     elif(tipo=='a' or tipo=='A' and litros>20):
         vlr = (alcool-alcool*0.05)*litros
-    print(f"O preço a pagar é: {vlr}")
+    print(f"O preço a pagar é R$ {vlr:5.2f}")
