@@ -6,7 +6,7 @@ if(len(cidade)<10):
 else:
     print(f"{cidade} tem {len(cidade)} caracteres")
 
-#8 - Atribua dois nomes de pessoas a duas variáveis e verifique quais dos dois nomes tem a maior quantidade de caracteres. No final o sistema deve mostrar: 'O nome 'nome' é maior que o nome 'nome2'.
+#8 - Atribua dois nomes de pessoas a duas variáves e verifique quais dos dois nomes tem a maior quantidade de caracteres. No final o sistema deve mostrar: 'O nome 'nome' é maior que o nome 'nome2'.
 print("\nexercidio 8:")
 nome1 = "Renato"
 nome2 = "Rodrigo"
