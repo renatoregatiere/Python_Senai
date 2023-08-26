@@ -1,4 +1,5 @@
-'''Um posto está vencendo combustíveis com a seguinte tabela de desconto:
+'''
+Um posto está vencendo combustíveis com a seguinte tabela de desconto:
 
 Álcool:
 até 20 litros: desconto de 3% por litro
