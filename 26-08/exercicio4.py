@@ -10,11 +10,12 @@ Se a pessoal responder positivamente a 2 questão, ela deve ser classificada com
 Caso qtdrário, ele será classificado como 'inocente'.
 '''
 
-qtd=0
+qtd = 0
 print("\nDigite um SIM ou NÃO para as perguntas abaixo:z\n")
 
 resposta = []
-classificacao=["Inocente","Suspeito","Cumplice","Cumplice","Assassino","Assassino"]
+classificacao = ["Inocente", "Suspeito", "Cumplice",
+                 "Cumplice", "Assassino", "Assassino"]
 resposta.append(str.upper(input("Telefonou para a vitima?\n")))
 resposta.append(str.upper(input("Esteve no local do crime?\n")))
 resposta.append(str.upper(input("Mora perto da vitima?\n")))
@@ -22,6 +23,6 @@ resposta.append(str.upper(input("Devia para a vitima?\n")))
 resposta.append(str.upper(input("Já trabalhou com a vitima?\n")))
 
 for i in resposta:
-    if(i=="SIM"):
-        qtd+=1       
+    if (i == "SIM"):
+        qtd += 1
 print(classificacao[qtd])
