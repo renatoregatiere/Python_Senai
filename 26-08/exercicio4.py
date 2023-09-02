@@ -21,7 +21,7 @@ resposta.append(str.upper(input("Mora perto da vitima?\n")))
 resposta.append(str.upper(input("Devia para a vitima?\n")))
 resposta.append(str.upper(input("Já trabalhou com a vitima?\n")))
 
-for n in resposta:
-    if(n=="SIM"):
+for i in resposta:
+    if(i=="SIM"):
         qtd+=1       
 print(classificacao[qtd])
