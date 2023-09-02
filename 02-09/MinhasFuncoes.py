@@ -6,4 +6,4 @@ def exponenciar(num1, num2):
 
 
 def raizQuadrada(num1):
-    print(f'Raiz quradrade de {num1} é : {mt.sqrt(num1)}')
+    print(mt.sqrt(num1))
