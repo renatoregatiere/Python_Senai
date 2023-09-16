@@ -1,0 +1,6 @@
+tabuada = int(input('Qual tabuada você deseja saber?\n'))
+a = 0
+print(f'Tabuada do número {tabuada}')
+while a <= 10:
+    print(f'{tabuada} * {a} = {tabuada*a}')
+    a = a +1
